@@ -1,5 +1,13 @@
 import "../styles/styles.css";
+import MobileMenu from './modules/MobileMenu';
+
+
+let mobileMenu = new MobileMenu();
+
+//mobileMenu.events();
+
 if(module.hot){
     module.hot.accept()
 }
-console.log('Fuck this for a game of football !!!');
+
+
